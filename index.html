@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DripBack 90's</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #ffffff;
+      color: #000;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 10px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1607082349566-1873420b7145') center/cover no-repeat;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      background: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .products {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product-card {
+      display: flex;
+      gap: 20px;
+      border: 1px solid #eee;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    .product-card img {
+      max-width: 200px;
+      border-radius: 8px;
+    }
+    .product-info h3 {
+      margin: 0;
+    }
+    .sizes span {
+      margin-right: 10px;
+      background: #ddd;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="DripBack 90s Logo" />
+      <h1>DripBack 90's</h1>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Retro Jerseys</h1>
+    <button class="btn">Shop Now</button>
+  </section>
+  <section class="products" id="shop">
+    <h2>Featured Products</h2>
+    <div class="product-card">
+      <img src="jersey.jpg" alt="Santos Neymar Home Kit Jersey" />
+      <div class="product-info">
+        <h3>Santos Neymar Home Kit – Player Version</h3>
+        <p><strong>₹899</strong></p>
+        <div class="sizes">
+          <span>S</span><span>M</span><span>L</span><span>XL</span>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 DripBack 90's. All rights reserved.
+  </footer>
+</body>
+</html>
